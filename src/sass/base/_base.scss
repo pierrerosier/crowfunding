@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: $commissionerbold;
+    font-size: 1.125rem;
+    color: $Black;
+
+    @media screen and(min-width: 992px) {
+        font-size: 1.65625rem;
+    }
+}
+
+h2 {
+    font-family: $commissionermedium;
+    font-size: 1.125rem;
+    color: $Black;
+}
+
+p {
+    font-family: $commissionerregular;
+    font-size: .875rem;
+    color: $Boulder;
+}
+
+a {
+    font-family: $commissionerregular;
+    font-size: .875rem;
+
+    &.is-title-header {
+        font-family: $commissionerbold;
+        font-size: 1.1875rem;
+        color: $White;
+    }
+    
+
+    &.nav-link {
+        color: $Black;
+
+        @media screen and(min-width: 992px) {
+            color: $White;
+        }
+    }
+}
+
+.attribution { 
+    font-family: $commissionerregular;
+    font-size: .875rem;
+
+    &__link {     
+        color: hsl(228, 45%, 44%); 
+    }
+}
+
+.link {
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "crowdfunding",
+  "version": "1.0.0",
+  "description": "Frontend Mentor's Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierrerosier/crowfunding.git"
+  },
+  "author": "Pierre Rosier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pierrerosier/crowfunding/issues"
+  },
+  "homepage": "https://github.com/pierrerosier/crowfunding#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "sass": "^1.32.12"
+  }
+}

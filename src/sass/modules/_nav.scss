@@ -1,0 +1,36 @@
+/*
+*Ouverture/fermeture menu burger
+*/
+.navbar-toggler {
+    .burger-closed {
+        display: none;
+    }
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    padding: 1.8125rem 1.5625rem;
+    background-color: $White;
+    border-radius: 10px;
+
+    @media screen and(min-width: 992px) {
+        margin-top: 0;
+        padding: 0;
+        background-color: transparent;
+    }
+}
+
+.is-active {
+    .burger-opened {
+        display: none;
+    }
+    .burger-closed {
+        display: inline-block;
+    }
+}
+
+.navbar-toggler:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}

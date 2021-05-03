@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* Theme Name: Crowfunding
+ * Author: Pierre Rosier
+ * Description: Thème créé pour un exercice Frontend Mentor
+ * Version: 1.0.0
+ */
+/*
+*Fonts
+*/
+/*
+*Colors
+*/
+/*
+    **Primary
+    */
+/*
+    **Neutral
+    */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "commissionerbold";
+  font-size: 1.125rem;
+  color: #000000;
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 1.65625rem;
+  }
+}
+
+h2 {
+  font-family: "commissionermedium";
+  font-size: 1.125rem;
+  color: #000000;
+}
+
+p {
+  font-family: "commissionerregular";
+  font-size: .875rem;
+  color: #7A7A7A;
+}
+
+a {
+  font-family: "commissionerregular";
+  font-size: .875rem;
+}
+
+a.is-title-header {
+  font-family: "commissionerbold";
+  font-size: 1.1875rem;
+  color: #FFFFFF;
+}
+
+a.nav-link {
+  color: #000000;
+}
+
+@media screen and (min-width: 992px) {
+  a.nav-link {
+    color: #FFFFFF;
+  }
+}
+
+.attribution {
+  font-family: "commissionerregular";
+  font-size: .875rem;
+}
+
+.attribution__link {
+  color: #3e52a3;
+}
+
+.link {
+  text-align: center;
+}
+
+/*
+*Commissionner
+*/
+/*
+**Bold
+*/
+@font-face {
+  font-family: 'commissionerbold';
+  src: url("../fonts/commissioner-bold-webfont.woff2") format("woff2"), url("../fonts/commissioner-bold-webfont.woff") format("woff"), url("../fonts/commissioner-bold-webfont.ttf") format("truetype"), url("../fonts/commissioner-bold-webfont.svg#commissionerbold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*
+**Medium
+*/
+@font-face {
+  font-family: 'commissionermedium';
+  src: url("../fonts/commissioner-medium-webfont.woff2") format("woff2"), url("../fonts/commissioner-medium-webfont.woff") format("woff"), url("../fonts/commissioner-medium-webfont.ttf") format("truetype"), url("../fonts/commissioner-medium-webfont.svg#commissionermedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*
+**Regular
+*/
+@font-face {
+  font-family: 'commissionerregular';
+  src: url("../fonts/commissioner-regular-webfont.woff2") format("woff2"), url("../fonts/commissioner-regular-webfont.woff") format("woff"), url("../fonts/commissioner-regular-webfont.ttf") format("truetype"), url("../fonts/commissioner-regular-webfont.svg#commissionerregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-header {
+  background: url("/src/images/image-hero-mobile.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+@media screen and (min-width: 992px) {
+  .bg-header {
+    background: url("/src/images/image-hero-desktop.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.bg-header .container {
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .bg-header .container {
+    margin-top: 1.75rem;
+  }
+}
+
+/*
+*Ouverture/fermeture menu burger
+*/
+.navbar-toggler .burger-closed {
+  display: none;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 1.5rem;
+  padding: 1.8125rem 1.5625rem;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-collapse {
+    margin-top: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+}
+
+.is-active .burger-opened {
+  display: none;
+}
+
+.is-active .burger-closed {
+  display: inline-block;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+/*# sourceMappingURL=app.css.map */
