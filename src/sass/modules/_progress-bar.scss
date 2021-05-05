@@ -1,0 +1,18 @@
+.wrapper-progress {
+    background-color: transparent!important;
+}
+
+.progress {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    background-color: $Alabaster!important;
+    border-radius: 10px!important;
+
+    @media screen and(min-width: 992px) {
+        margin-top: 1.125rem;
+    }
+
+    .progress-bar {
+        background-color: $Keppel!important;
+    }
+}
