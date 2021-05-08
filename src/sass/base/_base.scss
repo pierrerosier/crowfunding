@@ -66,6 +66,25 @@ a {
     }
 }
 
+.label {
+
+    &--boulder {
+    font-family: $commissionerregular!important;
+    font-size: .875rem!important;
+    color: $Boulder!important;
+    }
+
+    &--keppel {
+        font-family: $commissionerregular!important;
+        font-size: .875rem!important;
+        color: $Keppel!important;
+
+        @media screen and(min-width: 992px) {
+            margin-left: .75rem;
+        }
+    }
+}
+
 .attribution { 
     font-family: $commissionerregular;
     font-size: .875rem;

@@ -88,6 +88,24 @@ a.nav-link {
   }
 }
 
+.label--boulder {
+  font-family: "commissionerregular" !important;
+  font-size: 0.875rem !important;
+  color: #7A7A7A !important;
+}
+
+.label--keppel {
+  font-family: "commissionerregular" !important;
+  font-size: 0.875rem !important;
+  color: #3CB4AC !important;
+}
+
+@media screen and (min-width: 992px) {
+  .label--keppel {
+    margin-left: .75rem;
+  }
+}
+
 .attribution {
   font-family: "commissionerregular";
   font-size: .875rem;
@@ -267,6 +285,12 @@ a.nav-link {
 .btn__reward {
   padding: 0.5rem 1rem !important;
   background-color: #3CB4AC;
+  border: none !important;
+}
+
+.btn__reward:hover, .btn__reward:focus {
+  background-color: #3CB4AC !important;
+  border: none !important;
 }
 
 .btn__reward--opacity {
@@ -288,6 +312,10 @@ a.nav-link {
   }
 }
 
+.divider__modal {
+  width: 100%;
+}
+
 .wrapper-progress {
   background-color: transparent !important;
 }
@@ -307,5 +335,48 @@ a.nav-link {
 
 .progress .progress-bar {
   background-color: #3CB4AC !important;
+}
+
+.btn-close {
+  margin-top: 0 !important;
+  background: transparent url("/src/images/icon-close-modal.svg") center/1em auto no-repeat !important;
+}
+
+.modal-header {
+  border-bottom: 0 !important;
+}
+
+@media screen and (min-width: 992px) {
+  .container
+.wrapper-reward__numbers {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: var(--bs-gutter-x, 0.75rem);
+    margin-top: .4375rem;
+  }
+}
+
+.form-check__one {
+  margin-top: 0.25rem !important;
+}
+
+.form-check__rest {
+  margin-top: 1rem !important;
+}
+
+@media screen and (min-width: 992px) {
+  .form-check__rest {
+    margin-top: 0.25rem !important;
+  }
+}
+
+.modal__title:hover {
+  color: #3CB4AC !important;
+  cursor: pointer;
+}
+
+.is-active > div {
+  display: none;
 }
 /*# sourceMappingURL=app.css.map */

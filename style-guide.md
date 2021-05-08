@@ -30,27 +30,16 @@ The designs were created to the following widths:
 - Family: [Commissioner](https://fonts.google.com/specimen/Commissioner)
 - Weights: 400, 500, 700
 
-  101 left
-  Select Reward
 
-  Black Edition Stand
-  Pledge $75 or more
-  You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
-  member list. Shipping is included.
-  64 left
-  Select Reward
-
-  Mahogany Special Edition
-  Pledge $200 or more
-  You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
-  to our Backer member list. Shipping is included.
+  
+  
   0 left
-  Out of Stock
+  
 
   <!-- Selection modal start -->
 
-  Back this project
-  Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?
+ 
+  
 
   Pledge with no reward
   Choose to support us without a reward if you simply believe in our project. As a backer, 

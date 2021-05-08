@@ -1,0 +1,57 @@
+.btn-close {
+    margin-top: 0!important;
+    background: transparent url('/src/images/icon-close-modal.svg') center/1em auto no-repeat!important;
+}
+
+.modal-header {
+    border-bottom: 0!important;
+}
+
+.container
+
+.wrapper-reward {
+
+    &__numbers {
+
+        @media screen and(min-width: 992px) {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-right: var(--bs-gutter-x,.75rem);
+            margin-top: .4375rem;
+        }
+        
+    }
+}
+
+.form-check {
+
+    &__one {
+        margin-top: .25rem!important;
+    }
+
+    &__rest {
+        margin-top: 1rem!important;
+
+        @media screen and(min-width: 992px) {
+            margin-top: .25rem!important;
+        }
+    }
+    
+}
+
+.modal__title {
+
+    &:hover {
+        color: $Keppel!important;
+        cursor: pointer;
+    }
+}
+
+.is-active{
+
+    >div {
+        display: none;
+    }
+
+}

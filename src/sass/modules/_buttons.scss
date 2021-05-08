@@ -19,9 +19,16 @@
     &__reward {
         padding: .5rem 1rem!important;
         background-color: $Keppel;
+        border: none!important;
+
+        &:hover, &:focus {
+            background-color: $Keppel!important;
+            border: none!important;
+        }
 
         &--opacity {
             background-color: $Boulder;
         }
     }
+
 }
