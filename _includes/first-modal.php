@@ -17,7 +17,7 @@
 					<div class="row">
 						<div class="col-12 text-start">
 							<div class="form-check">
-								<input class="form-check-input form-check__one" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+								<input class="form-check-input form-check__one" type="radio" name="flexRadioDefault" id="flexRadioDefault">
 								<label class="form-check-label label--boulder" for="flexRadioDefault1">Pledge with no reward</label>
 							</div>
 						</div>
@@ -32,12 +32,12 @@
 				</div>
 				<!-- End First block -->
 				<!-- Second block -->
-				<div class="container container__reward position-relative">
+				<div class="container container__reward position-relative test">
 					<div class="row">
 						<div class="col-12 text-start my-auto align-items-center">
-							<div class="form-check">
-								<input class="form-check-input form-check__rest" type="radio" name="flexRadioDefault" id="openField">
-								<div class="d-flex flex-column flex-lg-row">
+							<div class="form-check my-auto">
+								<input class="form-check-input form-check__rest check-event" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+								<div class="d-flex flex-column flex-lg-row my-auto">
 									<h2 class="modal__title">Bamboo Stand</h2>
 									<label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $25 or more</label>
 								</div>
@@ -63,17 +63,16 @@
 							</div>
 						</div>
 					</div>
-					<!-- Second Modal -->
-					<!-- End Second Modal -->
+					<?php include('first-modal__footer.php') ?>
 				</div>
 				<!-- End Second block -->
 				<!-- Third block -->
 				<div class="container container__reward position-relative">
 					<div class="row">
 						<div class="col-12 text-start">
-							<div class="form-check">
-								<input class="form-check-input form-check__rest" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-								<div class="d-flex flex-column flex-lg-row">
+							<div class="form-check my-auto">
+								<input class="form-check-input form-check__rest check-event" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+								<div class="d-flex flex-column flex-lg-row my-auto">
 									<h2 class="modal__title">Black Edition Stand</h2>
 									<label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $75 or more</label>
 								</div>
@@ -99,15 +98,21 @@
 							</div>
 						</div>
 					</div>
+					<?php include('first-modal__footer.php')  ?>
+					
+					<!-- Second Modal -->
+					<!-- End Second Modal -->
+
 				</div>
 				<!-- End Third block -->
+				
 				<!-- Fourth block -->
 				<div class="container container__reward container__reward--opacity position-relative">
 					<div class="row">
 						<div class="col-12 text-start">
-							<div class="form-check">
-								<input class="form-check-input form-check__rest" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-								<div class="d-flex flex-column flex-lg-row">
+							<div class="form-check my-auto">
+								<input class="form-check-input form-check__rest" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+								<div class="d-flex flex-column flex-lg-row my-auto">
 									<h2 class="modal__title">Mahogany Special Edition</h2>
 									<label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $200 or more</label>
 								</div>
@@ -136,13 +141,8 @@
 				</div>
 				<!-- End Fourth block -->
 			</div>
-			<!--
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
-			</div>
-			-->
 		</div>
 	</div>
 </div>
 <!-- Fin Modal -->
+<?php include('second-modal.php') ?>

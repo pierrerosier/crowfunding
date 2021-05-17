@@ -11,6 +11,6 @@
     }
 
     &__modal {
-        width: 100%;
+        width: calc(100% + (var(--bs-gutter-x)))!important;
     }
 }

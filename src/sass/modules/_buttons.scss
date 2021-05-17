@@ -5,7 +5,7 @@
     border-radius: 50px;
 
     &__back {
-        background-color: $Keppel;
+        background-color: $Genoa;
         padding: 0.625rem 1.375rem;
     }
 
@@ -29,6 +29,50 @@
         &--opacity {
             background-color: $Boulder;
         }
+    }
+
+    &__pledge {
+        background-color: transparent;
+        border: 1px solid $Keppel;
+        border-radius: 50px;
+        color: $Boulder;
+    }
+
+    &__continue {
+        padding: .5rem 1rem!important;
+        background-color: $Keppel;
+        border: none;
+        width: 100%;
+
+        &:hover {
+            background-color: $Keppel!important;
+            border: none!important;
+        }
+    }
+
+    &__check {
+        padding: .5rem 1rem!important;
+        background-color: $Keppel;
+        border: none;
+        font-family: $commissionerregular;
+    }
+
+}
+
+.is-success {
+    .img__bookmark {
+        display: none;
+
+        &--success {
+            display: block;
+            height:2.6875rem;
+            width:auto;
+            z-index:10;
+        }
+    }
+
+    .btn__bookmark {
+        color: $Genoa;
     }
 
 }

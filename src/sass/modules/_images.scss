@@ -12,9 +12,22 @@
         width:auto;
         z-index:10;
 
+        &--success {
+            display: none;
+
+            @media screen and(min-width: 992px) {
+                position: absolute;
+                right: calc(0% + 7rem );
+            }
+        }
+
         @media screen and(min-width: 992px) {
             position: absolute;
-            right: calc(0% + 7.625rem );
+            right: calc(0% + 7rem );
         }
+    }
+
+    &__check {
+        padding-bottom: 1.625rem;
     }
 }

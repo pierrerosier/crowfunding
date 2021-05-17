@@ -1,14 +1,21 @@
-const $modalToggler = document.querySelector('openField')
+const $containerRewards = document.querySelectorAll('.container__reward')
+let $rewardOpened = null
 
-    if ($modalToggler) {
-        let openField = false
+$containerRewards.forEach(($containerReward) => {
+    const $checkEvent = $containerReward.querySelector('.check-event')
 
-        $modalToggler.addEventListener('click', (evt) => {
-            if (openField) {
-                document.getElementById('secondPart').classList.remove('is-active')
-            } else {
-                document.getElementById('secondPart').classList.add('is-active')
+    if ($checkEvent) {
+        const $rewardDetail = $containerReward.querySelector('.reward-detail');
+
+        $checkEvent.addEventListener('click', () => {
+            if ($rewardOpened !== null && $checkEvent !== $rewardOpened) {
+                $rewardOpened.classList.remove('open-field')
+                $rewardOpened.classList.add('is-active')
             }
-            openField = !openField
-        });
+
+            $rewardDetail.classList.remove('open-field')
+            $rewardDetail.classList.add('is-active')
+            $rewardOpened = $checkEvent
+        })
     }
+})
