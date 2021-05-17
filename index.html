@@ -1,437 +1,562 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- displays site properly based on user's device --><link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"><link rel="stylesheet" href="src/sass/app.css"><title>Frontend Mentor | Crowdfunding product page</title>  </head>  <body><header class="container-fluid bg-header"><nav class="navbar navbar-expand-lg"><div class="container"><div class="navbar-brand is-title-header"><img src="src/images/logo.svg" alt=""></div><button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false"aria-label="Toggle navigation" id="navbarToggler"><img class="burger-opened" src="src/images/icon-hamburger.svg" alt=""><img class="burger-closed" src="src/images/icon-close-menu.svg" alt=""></button><div class="navbar-collapse collapse" id="navbarSupportedContent"><ul class="navbar-nav"><li class="nav-item"><a class="nav-link" href="#">About</a></li><li><hr class="dropdown-divider"></li><li class="nav-item"><a class="nav-link" href="#">Discover</a></li><li><hr class="dropdown-divider"></li><li class="nav-item"><a class="nav-link" href="#">GetStarted</a></li></ul></div></div></nav></header><div class="content"><main class="position-relative"><div class="container-fluid">  <div class="container container__presentation col-12 col-lg-8 offset-lg-2"><div class="row"><div class="col text-center"><img src="src/images/logo-mastercraft.svg" class="img__mastercraft"></div></div><div class="row text-center"><div class="col"><h1>Mastercraft Bamboo Monitor Riser</h1></div></div><div class="row text-center"><div class="col"><p>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p></div></div><div class="row"><div class="col-8 col-sm-6 col-lg-5 offset-lg-1 text-md-end text-lg-start"><button type="button" class="btn btn__back">Back this project</button></div><div class="col-4 col-lg-5 d-lg-inline-flex justify-content-start justify-lg-content-end position-relative is-grey"><img src="src/images/icon-bookmark.svg" class="img__bookmark"><img src="src/images/icon-bookmark-success.svg" class="img__bookmark--success"><button type="button" class="btn btn__bookmark d-none d-lg-block">Bookmark</button></div></div>  </div></div><div class="container-fluid">  <div class="container container__prices col-12 col-lg-8 offset-lg-2"><div class="row"><div class="col text-center d-lg-inline-flex justify-content-lg-around"><div class="p__wrapper mx-auto"><p class="numbers">$89,914</p><p>of $100,000 backed</p></div><hr class="divider"><div class="p__wrapper mx-auto"><p class="numbers">5,007</p><p>total backers</p></div><hr class="divider"><div class="p__wrapper mx-auto"><p class="numbers">56</p><p>days left</p></div></div><div class="row wrapper-progress mx-auto"><div class="col-10 offset-1 progress"><div class="progress-bar" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div></div></div></div>  </div></div><div class="container-fluid"><div class="container container__about col-12 col-lg-8 offset-lg-2"><div class="row"><div class="col-10 offset-1"><h2>About this project</h2><p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screento a more comfortable viewing height. Placing your monitor at eye level has the potential to improveyour posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p></br><p>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computerto allow notepads, pens, and USB sticks to be stored under the stand.</p></div></div><div class="container container__reward col-10 offset-1"><div class="row"><div class="col-12 col-lg-6 text-left text-lg-start"><h2 class="">Bamboo Stand</h2></div><div class="col-12 col-lg-6 text-left text-lg-end"><p class="pledge">Pledge $25 or more</p></div></div><div class="row"><div class="col"><p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, andyou’ll be added to a special Backer member list.
-	</p>
-</div>
-</div>
-<div class="row"><div class="wrapper-reward d-lg-inline-flex">
-	<div class="col col-lg-6 d-inline-flex">
-		<p class="numbers">
-			64
-		</p>
-		<p style="padding-top: 1rem;margin-left: 1rem;">
-			left
-		</p>
-	</div>
-	<div class="col col-lg-6 text-lg-end my-auto">
-		<button type="button" class="btn btn-primary btn__reward" data-bs-toggle="modal" data-bs-target="#exampleModal">Select Reward</button>
-		<!-- Modal -->
-		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered modal-lg">
-				<div class="container modal-content">
-					<div class="row modal-header">
-						<div class="modal-header__wrapper d-inline-flex justify-content-around">
-							<h1 class="col-12  text-start modal-title" id="exampleModalLabel">Back this project</h1>
-							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-						</div>
-						<p class="col-12  text-start modal-title" id="exempleModalLabel">
-							Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?
-						</p>
-					</div>
-					<div class="modal-body">
-						<!-- First block -->
-						<div class="container container__reward">
-							<div class="row">
-								<div class="col-12 text-start">
-									<div class="form-check">
-										<input class="form-check-input form-check__one" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-										<label class="form-check-label label--boulder" for="flexRadioDefault1">Pledge with no reward</label>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col text-start">
-									<p>
-										Choose to support us without a reward if you simply believe in our project. As a backer,you will be signed up to receive product updates via email.
-									</p>
-								</div>
-							</div>
-						</div>
-						<!-- End First block -->
-						<!-- Second block -->
-						<div class="container container__reward position-relative test">
-							<div class="row">
-								<div class="col-12 text-start my-auto align-items-center">
-									<div class="form-check my-auto">
-										<input class="form-check-input form-check__rest check-event" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-										<div class="d-flex flex-column flex-lg-row my-auto">
-											<h2 class="modal__title">Bamboo Stand</h2>
-											<label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $25 or more</label>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col text-start">
-									<p>
-										You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, andyou’ll be added to a special Backer member list.
-									</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="wrapper-reward d-lg-inline-flex">
-									<div class="col d-inline-flex wrapper-reward__numbers">
-										<p class="numbers">
-											64
-										</p>
-										<p style="padding-top: 1rem;margin-left: 1rem;">
-											left
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="row modal-footer open-field reward-detail" id="openField">
-								<div class="row d-lg-inline-flex my-auto">
-									<p class="col col-lg-6 text-center text-lg-start">
-										Enter your Pledge
-									</p>
-									<div class="row col-lg-6 text-lg-end d-inline-flex">
-										<div class="col-6">
-											<input type="text" class="form-control btn__pledge mx-auto" placeholder="$"aria-label="$" aria-describedby="basic-addon2">
-										</div>
-										<div class="col-6">
-											<button class="btn btn-primary btn__continue mx-auto" data-bs-target="#ModalToggle2"data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Second block -->
-						<!-- Third block -->
-						<div class="container container__reward position-relative">
-							<div class="row">
-								<div class="col-12 text-start">
-									<div class="form-check my-auto">
-										<input class="form-check-input form-check__rest check-event" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-										<div class="d-flex flex-column flex-lg-row my-auto">
-											<h2 class="modal__title">Black Edition Stand</h2>
-											<label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $75 or more</label>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col text-start">
-									<p>
-										You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backermember list. Shipping is included.
-									</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="wrapper-reward d-lg-inline-flex">
-									<div class="col d-inline-flex wrapper-reward__numbers">
-										<p class="numbers">
-											101
-										</p>
-										<p style="padding-top: 1rem;margin-left: 1rem;">
-											left
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="row modal-footer open-field reward-detail" id="openField">
-								<div class="row d-lg-inline-flex my-auto">
-									<p class="col col-lg-6 text-center text-lg-start">
-										Enter your Pledge
-									</p>
-									<div class="row col-lg-6 text-lg-end d-inline-flex">
-										<div class="col-6">
-											<input type="text" class="form-control btn__pledge mx-auto" placeholder="$"aria-label="$" aria-describedby="basic-addon2">
-										</div>
-										<div class="col-6">
-											<button class="btn btn-primary btn__continue mx-auto" data-bs-target="#ModalToggle2"data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Second Modal -->
-							<!-- End Second Modal -->
-						</div>
-						<!-- End Third block -->
-						<!-- Fourth block -->
-						<div class="container container__reward container__reward--opacity position-relative">
-							<div class="row">
-								<div class="col-12 text-start">
-									<div class="form-check my-auto">
-										<input class="form-check-input form-check__rest" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-										<div class="d-flex flex-column flex-lg-row my-auto">
-											<h2 class="modal__title">Mahogany Special Edition</h2>
-											<label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $200 or more</label>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col text-start">
-									<p>
-										You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be addedto our Backer member list. Shipping is included.
-									</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="wrapper-reward d-lg-inline-flex">
-									<div class="col d-inline-flex wrapper-reward__numbers">
-										<p class="numbers">
-											0
-										</p>
-										<p style="padding-top: 1rem;margin-left: 1rem;">
-											left
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Fourth block -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Fin Modal -->
-		<div class="modal fade" id="ModalToggle2" aria-hidden="true"aria-labelledby="ModalToggleLabel2" tabindex="-1">
-			<div class="modal-dialog modal-dialog-centered">
-				<div class="modal-content container">
-					<div class="modal-body container">
-						<div class="row mx-auto text-center">
-							<div class="col">
-								<img class="img__check" src="/src/images/icon-check.svg" alt="">
-								<h1>Thanks for your support!</h1>
-								<p>
-									Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get an email once our campaign is completed.
-								</p>
-								<button type="button" class="btn btn-secondary btn__check"data-bs-dismiss="modal" id="bookmarked">Got it!</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
-</div>
-<div class="container container__reward col-10 offset-1"><div class="row">
-<div class="col-12 col-lg-6 text-left text-lg-start">
-	<h2 class="">Black Edition Stand</h2>
-</div>
-<div class="col-12 col-lg-6 text-left text-lg-end">
-	<p class="pledge">
-		Pledge $75 or more
-	</p>
-</div>
-</div>
-<div class="row"><div class="col">
-	<p>
-		You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backermember list. Shipping is included.
-	</p>
-</div>
-</div>
-<div class="row"><div class="wrapper-reward d-lg-inline-flex">
-	<div class="col col-lg-6 d-inline-flex">
-		<p class="numbers">
-			101
-		</p>
-		<p style="padding-top: 1rem;margin-left: 1rem;">
-			left
-		</p>
-	</div>
-	<div class="col col-lg-6 text-lg-end my-auto">
-		<button type="button" class="btn btn-primary btn__reward" data-bs-toggle="modal" data-bs-target="#exampleModal">Select Reward</button>
-		<!-- Modal -->
-		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered modal-lg">
-				<div class="container modal-content">
-					<div class="row modal-header">
-						<div class="modal-header__wrapper d-inline-flex justify-content-around">
-							<h1 class="col-12  text-start modal-title" id="exampleModalLabel">Back this project</h1>
-							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-						</div>
-						<p class="col-12  text-start modal-title" id="exempleModalLabel">
-							Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?
-						</p>
-					</div>
-					<div class="modal-body">
-						<!-- First block -->
-						<div class="container container__reward">
-							<div class="row">
-								<div class="col-12 text-start">
-									<div class="form-check">
-										<input class="form-check-input form-check__one" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-										<label class="form-check-label label--boulder" for="flexRadioDefault1">Pledge with no reward</label>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col text-start">
-									<p>
-										Choose to support us without a reward if you simply believe in our project. As a backer,you will be signed up to receive product updates via email.
-									</p>
-								</div>
-							</div>
-						</div>
-						<!-- End First block -->
-						<!-- Second block -->
-						<div class="container container__reward position-relative test">
-							<div class="row">
-								<div class="col-12 text-start my-auto align-items-center">
-									<div class="form-check my-auto">
-										<input class="form-check-input form-check__rest check-event" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-										<div class="d-flex flex-column flex-lg-row my-auto">
-											<h2 class="modal__title">Bamboo Stand</h2>
-											<label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $25 or more</label>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col text-start">
-									<p>
-										You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, andyou’ll be added to a special Backer member list.
-									</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="wrapper-reward d-lg-inline-flex">
-									<div class="col d-inline-flex wrapper-reward__numbers">
-										<p class="numbers">
-											64
-										</p>
-										<p style="padding-top: 1rem;margin-left: 1rem;">
-											left
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="row modal-footer open-field reward-detail" id="openField">
-								<div class="row d-lg-inline-flex my-auto">
-									<p class="col col-lg-6 text-center text-lg-start">
-										Enter your Pledge
-									</p>
-									<div class="row col-lg-6 text-lg-end d-inline-flex">
-										<div class="col-6">
-											<input type="text" class="form-control btn__pledge mx-auto" placeholder="$"aria-label="$" aria-describedby="basic-addon2">
-										</div>
-										<div class="col-6">
-											<button class="btn btn-primary btn__continue mx-auto" data-bs-target="#ModalToggle2"data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Second block -->
-						<!-- Third block -->
-						<div class="container container__reward position-relative">
-							<div class="row">
-								<div class="col-12 text-start">
-									<div class="form-check my-auto">
-										<input class="form-check-input form-check__rest check-event" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-										<div class="d-flex flex-column flex-lg-row my-auto">
-											<h2 class="modal__title">Black Edition Stand</h2>
-											<label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $75 or more</label>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col text-start">
-									<p>
-										You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backermember list. Shipping is included.
-									</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="wrapper-reward d-lg-inline-flex">
-									<div class="col d-inline-flex wrapper-reward__numbers">
-										<p class="numbers">
-											101
-										</p>
-										<p style="padding-top: 1rem;margin-left: 1rem;">
-											left
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="row modal-footer open-field reward-detail" id="openField">
-								<div class="row d-lg-inline-flex my-auto">
-									<p class="col col-lg-6 text-center text-lg-start">
-										Enter your Pledge
-									</p>
-									<div class="row col-lg-6 text-lg-end d-inline-flex">
-										<div class="col-6">
-											<input type="text" class="form-control btn__pledge mx-auto" placeholder="$"aria-label="$" aria-describedby="basic-addon2">
-										</div>
-										<div class="col-6">
-											<button class="btn btn-primary btn__continue mx-auto" data-bs-target="#ModalToggle2"data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- Second Modal -->
-							<!-- End Second Modal -->
-						</div>
-						<!-- End Third block -->
-						<!-- Fourth block -->
-						<div class="container container__reward container__reward--opacity position-relative">
-							<div class="row">
-								<div class="col-12 text-start">
-									<div class="form-check my-auto">
-										<input class="form-check-input form-check__rest" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-										<div class="d-flex flex-column flex-lg-row my-auto">
-											<h2 class="modal__title">Mahogany Special Edition</h2>
-											<label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $200 or more</label>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col text-start">
-									<p>
-										You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be addedto our Backer member list. Shipping is included.
-									</p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="wrapper-reward d-lg-inline-flex">
-									<div class="col d-inline-flex wrapper-reward__numbers">
-										<p class="numbers">
-											0
-										</p>
-										<p style="padding-top: 1rem;margin-left: 1rem;">
-											left
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Fourth block -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Fin Modal -->
-		<div class="modal fade" id="ModalToggle2" aria-hidden="true"aria-labelledby="ModalToggleLabel2" tabindex="-1">
-			<div class="modal-dialog modal-dialog-centered">
-				<div class="modal-content container">
-					<div class="modal-body container">
-						<div class="row mx-auto text-center">
-							<div class="col">
-								<img class="img__check" src="/src/images/icon-check.svg" alt="">
-								<h1>Thanks for your support!</h1>
-								<p>
-									Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get an email once our campaign is completed.
-								</p>
-								<button type="button" class="btn btn-secondary btn__check"data-bs-dismiss="modal" id="bookmarked">Got it!</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
+		<!-- displays site properly based on user's device -->
+        <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="src/sass/app.css">
+        
+        <title>Frontend Mentor | Crowdfunding product page</title>
+    </head>
+    <body>
+        <header class="container-fluid bg-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <div class="navbar-brand is-title-header">
+                    <img src="src/images/logo.svg" alt="">
+                    </div>
+                    <button class="navbar-toggler" type="button"data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent"
+                            aria-expanded="false"aria-label="Toggle navigation" id="navbarToggler">
+                        <img class="burger-opened" src="src/images/icon-hamburger.svg" alt="">
+                        <img class="burger-closed" src="src/images/icon-close-menu.svg" alt="">
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Discover</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li class="nav-item"><a class="nav-link" href="#">GetStarted</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content">
+            <main class="position-relative">
+                <div class="container-fluid">  
+                    
+                    <div class="container container__presentation col-12 col-lg-8 offset-lg-2">
+
+                        <div class="row">
+                            <div class="col text-center">
+                            <img src="src/images/logo-mastercraft.svg" class="img__mastercraft">
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col">
+                                <h1>Mastercraft Bamboo Monitor Riser</h1>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col">
+                                <p>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
+                            </div></div>
+                        <div class="row">
+                            <div class="col-8 col-sm-6 col-lg-5 offset-lg-1 text-md-end text-lg-start">
+                                <button type="button" class="btn btn__back">Back this project</button>
+                            </div>
+                            <div class="col-4 col-lg-5 d-lg-inline-flex justify-content-start justify-lg-content-end position-relative is-grey">
+                                <img src="src/images/icon-bookmark.svg" class="img__bookmark">
+                                <img src="src/images/icon-bookmark-success.svg" class="img__bookmark--success">
+                                <button type="button" class="btn btn__bookmark d-none d-lg-block">Bookmark</button>
+                            </div>
+                        </div>  
+                    
+                    </div>
+                </div>
+
+                <div class="container-fluid">  
+                    
+                    <div class="container container__prices col-12 col-lg-8 offset-lg-2">
+                        <div class="row">
+                            <div class="col text-center d-lg-inline-flex justify-content-lg-around">
+                                <div class="p__wrapper mx-auto">
+                                    <p class="numbers">$89,914</p>
+                                    <p>of $100,000 backed</p>
+                                </div>
+                                <hr class="divider">
+                                <div class="p__wrapper mx-auto">
+                                    <p class="numbers">5,007</p>
+                                    <p>total backers</p>
+                                </div><hr class="divider">
+                                <div class="p__wrapper mx-auto">
+                                    <p class="numbers">56</p>
+                                    <p>days left</p>
+                                </div>
+                            </div>
+                            <div class="row wrapper-progress mx-auto">
+                                <div class="col-10 offset-1 progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 78%"
+                                        aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                
+                <div class="container-fluid">
+
+                    <div class="container container__about col-12 col-lg-8 offset-lg-2">
+                        <div class="row">
+                            <div class="col-10 offset-1">
+                                <h2>About this project</h2>
+                                <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screento a more comfortable viewing height. Placing your monitor at eye level has the potential to improveyour posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
+                                </br>
+                                <p>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computerto allow notepads, pens, and USB sticks to be stored under the stand.</p>
+                            </div>
+                        </div>
+
+                    <div class="container container__reward col-10 offset-1">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 text-left text-lg-start">
+                                <h2 class="">Bamboo Stand</h2>
+                            </div><div class="col-12 col-lg-6 text-left text-lg-end">
+                                <p class="pledge">Pledge $25 or more</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, andyou’ll be added to a special Backer member list.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="wrapper-reward d-lg-inline-flex">
+                            <div class="col col-lg-6 d-inline-flex">
+                                <p class="numbers">
+                                    64
+                                </p>
+                                <p style="padding-top: 1rem;margin-left: 1rem;">
+                                    left
+                                </p>
+                            </div>
+                            <div class="col col-lg-6 text-lg-end my-auto">
+                                <button type="button" class="btn btn-primary btn__reward" data-bs-toggle="modal" data-bs-target="#exampleModal">Select Reward</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="container modal-content">
+                                            <div class="row modal-header">
+                                                <div class="modal-header__wrapper d-inline-flex justify-content-around">
+                                                    <h1 class="col-12  text-start modal-title" id="exampleModalLabel">Back this project</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <p class="col-12  text-start modal-title" id="exempleModalLabel">
+                                                    Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?
+                                                </p>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!-- First block -->
+                                                <div class="container container__reward">
+                                                    <div class="row">
+                                                        <div class="col-12 text-start">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input form-check__one" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+                                                                <label class="form-check-label label--boulder" for="flexRadioDefault1">Pledge with no reward</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col text-start">
+                                                            <p>
+                                                                Choose to support us without a reward if you simply believe in our project. As a backer,you will be signed up to receive product updates via email.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End First block -->
+                                                <!-- Second block -->
+                                                <div class="container container__reward position-relative test">
+                                                    <div class="row">
+                                                        <div class="col-12 text-start my-auto align-items-center">
+                                                            <div class="form-check my-auto">
+                                                                <input class="form-check-input form-check__rest check-event" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+                                                                <div class="d-flex flex-column flex-lg-row my-auto">
+                                                                    <h2 class="modal__title">Bamboo Stand</h2>
+                                                                    <label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $25 or more</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col text-start">
+                                                            <p>
+                                                                You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, andyou’ll be added to a special Backer member list.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="wrapper-reward d-lg-inline-flex">
+                                                            <div class="col d-inline-flex wrapper-reward__numbers">
+                                                                <p class="numbers">
+                                                                    64
+                                                                </p>
+                                                                <p style="padding-top: 1rem;margin-left: 1rem;">
+                                                                    left
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row modal-footer open-field reward-detail" id="openField">
+                                                        <div class="row d-lg-inline-flex my-auto">
+                                                            <p class="col col-lg-6 text-center text-lg-start">
+                                                                Enter your Pledge
+                                                            </p>
+                                                            <div class="row col-lg-6 text-lg-end d-inline-flex">
+                                                                <div class="col-6">
+                                                                    <input type="text" class="form-control btn__pledge mx-auto" placeholder="$"aria-label="$" aria-describedby="basic-addon2">
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <button class="btn btn-primary btn__continue mx-auto" data-bs-target="#ModalToggle2"data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Second block -->
+                                                <!-- Third block -->
+                                                <div class="container container__reward position-relative">
+                                                    <div class="row">
+                                                        <div class="col-12 text-start">
+                                                            <div class="form-check my-auto">
+                                                                <input class="form-check-input form-check__rest check-event" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+                                                                <div class="d-flex flex-column flex-lg-row my-auto">
+                                                                    <h2 class="modal__title">Black Edition Stand</h2>
+                                                                    <label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $75 or more</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col text-start">
+                                                            <p>
+                                                                You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backermember list. Shipping is included.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="wrapper-reward d-lg-inline-flex">
+                                                            <div class="col d-inline-flex wrapper-reward__numbers">
+                                                                <p class="numbers">
+                                                                    101
+                                                                </p>
+                                                                <p style="padding-top: 1rem;margin-left: 1rem;">
+                                                                    left
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row modal-footer open-field reward-detail" id="openField">
+                                                        <div class="row d-lg-inline-flex my-auto">
+                                                            <p class="col col-lg-6 text-center text-lg-start">
+                                                                Enter your Pledge
+                                                            </p>
+                                                            <div class="row col-lg-6 text-lg-end d-inline-flex">
+                                                                <div class="col-6">
+                                                                    <input type="text" class="form-control btn__pledge mx-auto" placeholder="$"aria-label="$" aria-describedby="basic-addon2">
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <button class="btn btn-primary btn__continue mx-auto" data-bs-target="#ModalToggle2"data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Second Modal -->
+                                                    <!-- End Second Modal -->
+                                                </div>
+                                                <!-- End Third block -->
+                                                <!-- Fourth block -->
+                                                <div class="container container__reward container__reward--opacity position-relative">
+                                                    <div class="row">
+                                                        <div class="col-12 text-start">
+                                                            <div class="form-check my-auto">
+                                                                <input class="form-check-input form-check__rest" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+                                                                <div class="d-flex flex-column flex-lg-row my-auto">
+                                                                    <h2 class="modal__title">Mahogany Special Edition</h2>
+                                                                    <label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $200 or more</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col text-start">
+                                                            <p>
+                                                                You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be addedto our Backer member list. Shipping is included.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="wrapper-reward d-lg-inline-flex">
+                                                            <div class="col d-inline-flex wrapper-reward__numbers">
+                                                                <p class="numbers">
+                                                                    0
+                                                                </p>
+                                                                <p style="padding-top: 1rem;margin-left: 1rem;">
+                                                                    left
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Fourth block -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fin Modal -->
+                                <div class="modal fade" id="ModalToggle2" aria-hidden="true"aria-labelledby="ModalToggleLabel2" tabindex="-1">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content container">
+                                            <div class="modal-body container">
+                                                <div class="row mx-auto text-center">
+                                                    <div class="col">
+                                                        <img class="img__check" src="/src/images/icon-check.svg" alt="">
+                                                        <h1>Thanks for your support!</h1>
+                                                        <p>
+                                                            Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get an email once our campaign is completed.
+                                                        </p>
+                                                        <button type="button" class="btn btn-secondary btn__check"data-bs-dismiss="modal" id="bookmarked">Got it!</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+<div class="container container__reward col-10 offset-1">
+    <div class="row">
+        <div class="col-12 col-lg-6 text-left text-lg-start">
+            <h2 class="">Black Edition Stand</h2>
+        </div>
+        <div class="col-12 col-lg-6 text-left text-lg-end">
+            <p class="pledge">
+                Pledge $75 or more
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>
+                You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backermember list. Shipping is included.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="wrapper-reward d-lg-inline-flex">
+            <div class="col col-lg-6 d-inline-flex">
+                <p class="numbers">
+                    101
+                </p>
+                <p style="padding-top: 1rem;margin-left: 1rem;">
+                    left
+                </p>
+            </div>
+            <div class="col col-lg-6 text-lg-end my-auto">
+                <button type="button" class="btn btn-primary btn__reward" data-bs-toggle="modal" data-bs-target="#exampleModal">Select Reward</button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="container modal-content">
+                            <div class="row modal-header">
+                                <div class="modal-header__wrapper d-inline-flex justify-content-around">
+                                    <h1 class="col-12  text-start modal-title" id="exampleModalLabel">Back this project</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <p class="col-12  text-start modal-title" id="exempleModalLabel">
+                                    Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?
+                                </p>
+                            </div>
+                            <div class="modal-body">
+                                <!-- First block -->
+                                <div class="container container__reward">
+                                    <div class="row">
+                                        <div class="col-12 text-start">
+                                            <div class="form-check">
+                                                <input class="form-check-input form-check__one" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+                                                <label class="form-check-label label--boulder" for="flexRadioDefault1">Pledge with no reward</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-start">
+                                            <p>
+                                                Choose to support us without a reward if you simply believe in our project. As a backer,you will be signed up to receive product updates via email.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End First block -->
+                                <!-- Second block -->
+                                <div class="container container__reward position-relative test">
+                                    <div class="row">
+                                        <div class="col-12 text-start my-auto align-items-center">
+                                            <div class="form-check my-auto">
+                                                <input class="form-check-input form-check__rest check-event" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+                                                <div class="d-flex flex-column flex-lg-row my-auto">
+                                                    <h2 class="modal__title">Bamboo Stand</h2>
+                                                    <label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $25 or more</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-start">
+                                            <p>
+                                                You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, andyou’ll be added to a special Backer member list.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="wrapper-reward d-lg-inline-flex">
+                                            <div class="col d-inline-flex wrapper-reward__numbers">
+                                                <p class="numbers">
+                                                    64
+                                                </p>
+                                                <p style="padding-top: 1rem;margin-left: 1rem;">
+                                                    left
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row modal-footer open-field reward-detail" id="openField">
+                                        <div class="row d-lg-inline-flex my-auto">
+                                            <p class="col col-lg-6 text-center text-lg-start">
+                                                Enter your Pledge
+                                            </p>
+                                            <div class="row col-lg-6 text-lg-end d-inline-flex">
+                                                <div class="col-6">
+                                                    <input type="text" class="form-control btn__pledge mx-auto" placeholder="$"aria-label="$" aria-describedby="basic-addon2">
+                                                </div>
+                                                <div class="col-6">
+                                                    <button class="btn btn-primary btn__continue mx-auto" data-bs-target="#ModalToggle2"data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Second block -->
+                                <!-- Third block -->
+                                <div class="container container__reward position-relative">
+                                    <div class="row">
+                                        <div class="col-12 text-start">
+                                            <div class="form-check my-auto">
+                                                <input class="form-check-input form-check__rest check-event" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+                                                <div class="d-flex flex-column flex-lg-row my-auto">
+                                                    <h2 class="modal__title">Black Edition Stand</h2>
+                                                    <label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $75 or more</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-start">
+                                            <p>
+                                                You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backermember list. Shipping is included.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="wrapper-reward d-lg-inline-flex">
+                                            <div class="col d-inline-flex wrapper-reward__numbers">
+                                                <p class="numbers">
+                                                    101
+                                                </p>
+                                                <p style="padding-top: 1rem;margin-left: 1rem;">
+                                                    left
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row modal-footer open-field reward-detail" id="openField">
+                                        <div class="row d-lg-inline-flex my-auto">
+                                            <p class="col col-lg-6 text-center text-lg-start">
+                                                Enter your Pledge
+                                            </p>
+                                            <div class="row col-lg-6 text-lg-end d-inline-flex">
+                                                <div class="col-6">
+                                                    <input type="text" class="form-control btn__pledge mx-auto" placeholder="$"aria-label="$" aria-describedby="basic-addon2">
+                                                </div>
+                                                <div class="col-6">
+                                                    <button class="btn btn-primary btn__continue mx-auto" data-bs-target="#ModalToggle2"data-bs-toggle="modal" data-bs-dismiss="modal">Continue</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Second Modal -->
+                                    <!-- End Second Modal -->
+                                </div>
+                                <!-- End Third block -->
+                                <!-- Fourth block -->
+                                <div class="container container__reward container__reward--opacity position-relative">
+                                    <div class="row">
+                                        <div class="col-12 text-start">
+                                            <div class="form-check my-auto">
+                                                <input class="form-check-input form-check__rest" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+                                                <div class="d-flex flex-column flex-lg-row my-auto">
+                                                    <h2 class="modal__title">Mahogany Special Edition</h2>
+                                                    <label class="form-check-label label--keppel" for="flexRadioDefault1">Pledge $200 or more</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-start">
+                                            <p>
+                                                You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be addedto our Backer member list. Shipping is included.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="wrapper-reward d-lg-inline-flex">
+                                            <div class="col d-inline-flex wrapper-reward__numbers">
+                                                <p class="numbers">
+                                                    0
+                                                </p>
+                                                <p style="padding-top: 1rem;margin-left: 1rem;">
+                                                    left
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Fourth block -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Modal -->
+
+                <div class="modal fade" id="ModalToggle2" aria-hidden="true"aria-labelledby="ModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content container">
+                            <div class="modal-body container">
+                                <div class="row mx-auto text-center">
+                                    <div class="col">
+                                        <img class="img__check" src="/src/images/icon-check.svg" alt="">
+                                        <h1>Thanks for your support!</h1>
+                                        <p>
+                                            Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get an email once our campaign is completed.
+                                        </p>
+                                        <button type="button" class="btn btn-secondary btn__check"data-bs-dismiss="modal" id="bookmarked">Got it!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="container container__reward container__reward--opacity col-10 offset-1"><div class="row">
 <div class="col-12 col-lg-6 text-left text-lg-start">
@@ -464,24 +589,27 @@
 </div>
 </div>
 </div>
-</div>
-</div>
-</main>
-</div>
-<div class="container attribution col-12 col-lg-8 offset-lg-2"><div class="row">
-<div class="col-10 offset-1 text-center">Challenge by
-<a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor
-</a>
-.Coded by 
-<a target="_blank" href="http://pierrerosier.fr/">Pierre Rosier
-</a>
-.
-</div>
-</div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-<script src="src/js/navbar-toggler.js"></script>
-<script src="src/js/open-pledge.js"></script>
-<script src="src/js/bookmarked.js"></script>
-</body>
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+
+        <div class="container attribution col-12 col-lg-8 offset-lg-2">
+            <div class="row">
+                <div class="col-10 offset-1 text-center">
+                    .Challenge by
+                    <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+                
+                    .Coded by 
+                    <a target="_blank" href="http://pierrerosier.fr/">Pierre Rosier</a>     
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="src/js/navbar-toggler.js"></script>
+        <script src="src/js/open-pledge.js"></script>
+        <script src="src/js/bookmarked.js"></script>
+    </body>
 </html>
