@@ -28,8 +28,8 @@ This is a solution to the [Crowdfunding product page challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/pierrerosier/crowfunding)
-- Live Site URL: [Add live site URL here](https://pierrerosier.github.io/crowfunding/)
+- Solution URL: [Solution](https://github.com/pierrerosier/crowfunding)
+- Live Site URL: [live site](https://pierrerosier.github.io/crowfunding/)
 
 ## My process
 
